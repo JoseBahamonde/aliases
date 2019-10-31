@@ -28,6 +28,7 @@ alias headerc='curl -I --compress'
 ## [SAFETY NETS]
 # do not delete / or prompt if deleting more than 3 files at a time
 alias rm='rm -I --preserve-root'
+alias clean='rm -rf -I --preserve-root .'
 
 # confirmation 
 alias mv='mv -i'
